@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    background-color: white;  
+}
+header > img {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.topnav {
+    font-size: 20px;    
+    float: right;
+    margin-right: 15px;
+    
+}
+.topnav ul {
+    list-style: none;
+    
+}
+
+.topnav ul li {
+    display: inline-block;
+}
+
+.topnav a {
+    color: #f6dc0d;
+    text-decoration: none;
+    padding: 0 5px;    
+    text-align: center;
+}
+ a:hover {
+    background-color: #f6dc0d;
+    color: #333;
+}
+
+@media (max-width: 960px) {
+    .topnav {
+        float: right;
+    }
+    .topnav ul li {
+        display: block;
+        text-align: center;
+    }
+
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: cornflowerblue;
+}
+p {
+    font-style:italic;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.form-row {
+    margin: 0 10px;
+    padding: 10px;    
+}
+.form-label {
+    padding: 5px;
+    margin: 5px;
+    font-weight:bold ;
+}
+.form-field {
+    padding: 5px;
+    margin: 5px;
+}
+
+.formrow {
+    margin: 10px;
+    padding: 20px;
+    }
+.formlabel{
+        display: inline-block;
+        padding: 10px 10px;
+        vertical-align: middle;
+    }
+.formfield {
+    display: inline-block;    
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+ul li {
+    list-style: none;
+}
+
+@media (min-width: 960px) {
+    .form-row {
+    margin: 10px;
+    padding: 20px;
+    }
+    .form-label{
+        display: inline-block;
+        padding: 10px 10px;
+        vertical-align: middle;
+    }
+    .form-field {
+        display: inline-block;    
+        padding: 10px 10px;
+        vertical-align: middle;
+    }
+}
+ 
+input[type=submit], input[type=reset] {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color:black;
+    color: cornflowerblue;
+}
+.bottomnav {
+    display: flex;
+    flex-direction: column;
+    float:right;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
